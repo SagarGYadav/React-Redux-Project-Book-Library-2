@@ -1,0 +1,68 @@
+.card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin: 0.5rem;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #1ac5d1;
+  border: 1px solid #1ac5d1;
+}
+
+.addBook {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button:hover,
+button:active {
+  background-color: #1ac5d1;
+  border-color: #1ac5d1;
+  color: white;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #34495e;
+  text-shadow: 2px 2px #ccc;
+}
+
+.description {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.noBook {
+  font-size: 2rem;
+  color: #34495e;
+  text-shadow: 2px 2px #ccc;
+}
+
+.deleteButton {
+  color: #fb1403f7;
+  border: 1px solid #fb1403f7;
+  margin-left: 1rem;
+}
+
+.deleteButton:hover,
+.deleteButton:active {
+  background-color: #fb1403f7;
+  border-color: #fb1403f7;
+  color: white;
+}
